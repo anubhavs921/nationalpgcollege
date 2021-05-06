@@ -1,0 +1,20 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+
+}
+
+.carousel-caption {
+  position: absolute;
+  font-family: comfortaa;
+  right: (100% - $carousel-caption-width) / 2;
+  bottom:180px;!important;
+  left: (100% - $carousel-caption-width) / 2;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: $carousel-caption-color;
+  text-align: center;
+}
